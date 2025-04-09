@@ -57,7 +57,7 @@ fun  DrawerMenu(bitmap: Bitmap?, onClick:(String) -> Unit) {
 
 
        Row (modifier = Modifier.fillMaxWidth().padding(top = 32.dp), horizontalArrangement = Arrangement.SpaceAround, verticalAlignment = Alignment.CenterVertically) {
-           Image( modifier = Modifier.width(120.dp).height(200.dp).background(Color.White),
+           Image( modifier = Modifier.width(120.dp).height(200.dp).background(Color.Black),
                bitmap = picture,
                contentDescription = "")
            Text(text = "PAINT", fontSize = 32.sp, fontWeight = FontWeight.Bold, color = Color.White)
