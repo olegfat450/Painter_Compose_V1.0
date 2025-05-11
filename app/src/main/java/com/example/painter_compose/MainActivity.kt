@@ -30,7 +30,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
-import androidx.compose.ui.graphics.Canvas
+
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.Path
 import androidx.compose.ui.graphics.StrokeCap
@@ -49,7 +49,7 @@ import java.io.File
 class MainActivity : ComponentActivity() {
 
 
-    private lateinit var canvas1: Canvas
+
   //  var onStart = false
     var onStart = mutableStateOf(false)
     var width = 0f

@@ -66,7 +66,7 @@ fun MainMenu(color: Color,strikeWeight: Float, onClick: (Int) -> Unit) {
     var cap by remember { mutableStateOf(capMenu.get(2)) }
     var capMenuOn by remember { mutableStateOf(false) }
 
-    Row (modifier = Modifier.fillMaxWidth().height(52.dp).background(Color.LightGray), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
+    Row (modifier = Modifier.padding(top = 32.dp).fillMaxWidth().height(52.dp).background(Color.LightGray), horizontalArrangement = Arrangement.SpaceBetween, verticalAlignment = Alignment.CenterVertically) {
 
 
         Icon(Icons.Filled.Menu, contentDescription = "", modifier = Modifier.size(42.dp).clickable { onClick(100) })
